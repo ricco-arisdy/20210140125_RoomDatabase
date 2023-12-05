@@ -17,7 +17,7 @@ import com.example.roomsiswa.R
 @Composable
 fun SiswaTopAppBar(
     title: String,
-    canNavigateBack: Modifier,
+    canNavigateBack: Boolean,
     modifier: Modifier = Modifier,
     scrollBehavior: TopAppBarScrollBehavior? = null,
     navigateUp: () -> Unit = {}
