@@ -119,7 +119,7 @@ fun FormInputSiswa(
         )
         OutlinedTextField(
             value = detailSiswa.alamat,
-            onValueChange = {onValueChange(detailSiswa.copy(nama =it))},
+            onValueChange = {onValueChange(detailSiswa.copy(alamat =it))},
             label = { Text(stringResource(R.string.alamat))},
             modifier = Modifier.fillMaxWidth(),
             enabled = enabled,
@@ -127,7 +127,7 @@ fun FormInputSiswa(
         )
         OutlinedTextField(
             value = detailSiswa.telepon,
-            onValueChange = {onValueChange(detailSiswa.copy(nama =it))},
+            onValueChange = {onValueChange(detailSiswa.copy(telepon =it))},
             label = { Text(stringResource(R.string.telpon))},
             modifier = Modifier.fillMaxWidth(),
             enabled = enabled,
